@@ -1,14 +1,12 @@
 ## Install
 ```
-go get github.com/hogesako/go-generics-syncmap
+go get github.com/hogesako/go-generics-syncmap/syncmap
 ```
 
 ## Usage
 ISUCON用なので内部で初期化チェックはしていない。必ずInitを呼ぶ必要がある
 ```
-import (
-	syncmap "github.com/hogesako/go-generics-syncmap"
-)
+import syncmap "github.com/hogesako/go-generics-syncmap/syncmap"
 
 rwmap := syncmap.RWSyncMap[int, string]
 rwmap.Init()
