@@ -1,4 +1,4 @@
-package gogenericssyncmap
+package syncmap
 
 import (
 	"sync"
