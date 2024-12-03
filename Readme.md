@@ -12,6 +12,5 @@ rwmap := syncmap.RWSyncMap[int, string]
 rwmap.Init()
 
 rwmap.Store(1, "one")
-require.Equal(t, 1, rwmap.Len())
 val, ok := rwmap.Load(1)
 ```
